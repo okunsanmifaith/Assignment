@@ -1,0 +1,77 @@
+body {
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #a1122a;
+}
+[class*="container-md"]{
+  background-color: pink;
+  border: 1px;
+}
+/*[class*="col-"]{
+  background-color: #ccc;
+  border: 1px;
+  padding: 1px solid navy;
+  width: 100%;
+}*/
+[class*="col-s"]{
+  background-color: #ccc;
+  border: 2px solid navy;
+  float: left;
+  
+}
+
+.row {
+  width: 100%;
+}
+
+/* for mobile */
+[class*="col-"]{
+    background-color: #ccc;
+  border: 1px;
+  padding: 1px solid navy;
+  width: 100%;
+}
+
+/* tablet */
+@media only screen and (min-width: 768px){
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+/* desktop */
+@media only screen and (min-width: 991px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+ }
+p {
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: #61122f;
+  text-align: justify;
+  font-weight: lighter;
+  font-style: italic;
+  border: 1px solid black;
+  padding: 1px;
+}
+
